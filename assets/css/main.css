@@ -1336,13 +1336,13 @@ input, select, textarea {
 		font-weight: 300;
 		color: #777777;
 		font-size: 21pt;
-		line-height: 1.75em;
+		line-height: 1.25em;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 18pt;
 			}
 
 		}
@@ -1350,7 +1350,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, textarea, select {
-				font-size: 15pt;
+				font-size: 17pt;
 			}
 
 		}
@@ -1358,7 +1358,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 15pt;
 			}
 
 		}
@@ -1366,7 +1366,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			body, input, textarea, select {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -1441,11 +1441,11 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table, blockquote, form {
-		margin-bottom: 2em;
+		margin-bottom: 0.5em;
 	}
 
 	.fw-bold {
-		font-weight: bold;
+		font-weight: bold!important;
 	}
 
 	img.social {
